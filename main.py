@@ -11,7 +11,6 @@ def main():
     while True:
         time.sleep(random.uniform(3, 5))
         url = dlg.child_window(title="Address and search bar", control_type="Edit").get_value()
-        print(url)
         if 'direct-queue' in url:
             while True:
                 print('\a')
