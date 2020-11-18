@@ -25,7 +25,7 @@ def main():
                     time.sleep(1)
                 sys.exit('Alerting done, shutting down.')
 
-                    
+            # x and y positions for recaptcha check box, modify this if you have different screen config
             randx = int(random.uniform(430,453))
             randy = int(random.uniform(628,649))
             click(button='left', coords=(randx,randy))
@@ -35,6 +35,8 @@ def main():
 
         encounter = False
         if roll:
+            # this is the position of scroll bar
+            # modify the coordinates if you have different screen config
             press(button='left', coords=(1910,419))
             time.sleep(0.2)
             release(button='left', coords=(1910,419))
