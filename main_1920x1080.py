@@ -41,7 +41,7 @@ def main():
             time.sleep(0.2)
             release(button='left', coords=(1910,419))
             roll = False
-            
+        send_keys('{ENTER}')
         send_keys('^{F5}')
 
 
