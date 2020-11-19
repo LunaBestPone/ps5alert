@@ -13,7 +13,7 @@ A naïve implementation of ps5 direct page auto refresher, works only for window
   differences are listed in Behavior Section
 4. Manually focus the chrome window, chrome must be in focus during the execution.
 # Behavior
-## main.py
+## main.py (deprecated, as sony place user in queue by cookie issue time)
 Makes beeps if hits the queue page, requires a human to complete recaptcha even if it's not an actual queue. Exit execution by killing the program whenever you like.
 ## main_1920x1080.py
 Makes beeps for one minute if hits an actual queue or the program just broke. Doesn't require a human to complete recaptcha if it's just bot checking. Exit execution by killing the program whenver you like. This only works for 1920x1080 resolution devices with windows task bar positioned on top because the mouse operation coordinates are hard coded. You can adjust the value, start by using ```findmouse.py``` which provides information on your mouse coordinates in real time.
