@@ -20,3 +20,6 @@ Makes beeps for one minute if hits an actual queue or the program just broke. Do
 ### Note
 1. You will most likely need adjustments for clicking coordinates for the 1920x1080 version. But it is the variant that bought me the video game machine. The comments in the script is detailed enough for localization on different environment (of course you need matching operating system).
 2. Remember to deactivate your GC API key after you are done with these stuffs. I do not have responsibility for your bills.
+
+# And good luck on the hunt for your new toy
+![Loot](https://github.com/LunaBestPone/ps5alert/blob/main/Capture.PNG?raw=true)
