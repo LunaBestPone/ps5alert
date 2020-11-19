@@ -5,7 +5,7 @@ A naïve implementation of ps5 direct page auto refresher, works only for window
 1. Go to options of Buster, Switch to Google Cloud Speech to Text API, insert your own API key (Guide on this will not be covered). If you have the 300 dollars free credit on Google Cloud, this will be most likely free over your usage during the script.
 1. Run
   ```pip install -r requirements.txt```
-2. Launch chrome with [ps direct](https://direct.playstation.com/en-us/ps5) tab open on top, for ```main_1920x1080.py``` variant, you need to also open chrome settings tap, place it on the second position.
+2. Launch chrome with [ps direct](https://direct.playstation.com/en-us/ps5) tab open on top, for ```main_1920x1080.py``` variant, you need to also open chrome settings tap, place it on the second position, in addition, copy the ps direct link to your clip board for pasting.
 3. Run
   ```python main.py```
   or
